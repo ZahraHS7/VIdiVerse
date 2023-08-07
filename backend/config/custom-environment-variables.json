@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey": "vidiverse_jwtPrivateKey"
+    "jwtPrivateKey": "vidiverse_jwtPrivateKey",
+    "db": "vidiverse_db"
 }
