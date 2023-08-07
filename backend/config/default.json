@@ -1,0 +1,8 @@
+{
+  "_comment1": "change db to the address of our mongodb database on mlab",
+  "_comment2": "but never store secrets in configuration files instead Setting Environment Variables on Heroku",
+  "jwtPrivateKey": "vidiverse_jwtPrivateKey",
+  "db": "mongodb://127.0.0.1:27017/vidly",
+  "port": "3001",
+  "requiresAuth": true
+}
