@@ -1,0 +1,24 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend:/app
+  backend:
+    build: ./backend
+    ports:
+      - 3001:3001
+    environment:
+      DB_URL: mongodb://database/vidly
+    volumes:
+      - ./backend:/app
+    command: ["sh", "-c", "./docker-entrypoint.sh"]
+  database:
+    image: mongo:4.0.28-xenial
+    ports:
+      - 27017:27017
+    volumes:
+      - vidiverse:/data/db
+volumes:
+  vidiverse:
