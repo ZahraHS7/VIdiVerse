@@ -6,7 +6,7 @@
   "scripts": {
     "db:up": "migrate-mongo up",
     "test": "jest --watchAll --verbose --coverage",
-    "start": "nodemon --ignore './tests' index.js"
+    "start": "node --ignore './tests' index.js"
   },
   "engines": {
     "node": "v18.16.0"
