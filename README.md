@@ -1,13 +1,13 @@
 # VidiVerse - Rental Movie Website
 
-Welcome to the VIdiVerse repository! This project includes both the frontend and backend components of a rental movie website.
+Welcome to the VidiVerse repository! This project includes both the frontend and backend components of a rental movie website.
 
 ## Frontend
 
-The frontend code is located in the `Optimized-frontend` folder. To run the frontend locally, follow these steps:
+The frontend code is located in the `frontend` folder. To run the frontend locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/yourusername/rental-movie-website.git`
-2. Navigate to the `Optimized-frontend` folder: `cd Optimized-frontend`
+1. Clone this repository: `git clone https://github.com/ZahraHS7/VidiVerse.git`
+2. Navigate to the `frontend` folder: `cd frontend`
 3. Install dependencies: `npm install`
 4. Start the frontend server: `npm start`
 
