@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8fc5363.css",
-    "main.js": "/static/js/main.b08cf51f.js",
+    "main.css": "/static/css/main.9cd0f63c.css",
+    "main.js": "/static/js/main.ad56a039.js",
     "static/js/787.98a9aeaf.chunk.js": "/static/js/787.98a9aeaf.chunk.js",
     "static/media/filming.jpg": "/static/media/filming.09f33a0c6f7c158a1489.jpg",
     "static/media/watching TV.jpg": "/static/media/watching TV.f1fa713d3a35410adc1c.jpg",
@@ -14,12 +14,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/logo.png": "/static/media/logo.a68fb40634889ed5c2f9.png",
     "index.html": "/index.html",
-    "main.a8fc5363.css.map": "/static/css/main.a8fc5363.css.map",
-    "main.b08cf51f.js.map": "/static/js/main.b08cf51f.js.map",
+    "main.9cd0f63c.css.map": "/static/css/main.9cd0f63c.css.map",
+    "main.ad56a039.js.map": "/static/js/main.ad56a039.js.map",
     "787.98a9aeaf.chunk.js.map": "/static/js/787.98a9aeaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8fc5363.css",
-    "static/js/main.b08cf51f.js"
+    "static/css/main.9cd0f63c.css",
+    "static/js/main.ad56a039.js"
   ]
 }
