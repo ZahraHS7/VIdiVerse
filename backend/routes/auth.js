@@ -20,6 +20,17 @@ router.post('/', async (req, res) => {
   res.send(token);
 });
 
+router.post('/google', async (req, res) => {
+  const email = req.body.email;
+  if (!email) return res.status(400).send('Email is required');
+
+  let user = await User.findOne({ email: req.body.email });
+  if (!user) return res.status(400).send('Invalid email.');
+
+  const token = user.generateAuthToken();
+  res.send(token);
+});
+
 async function validate(req) {
   const schema = Joi.object({
     email: Joi.string().min(5).max(255).required().email(),
