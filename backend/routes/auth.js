@@ -25,7 +25,7 @@ router.post('/google', async (req, res) => {
   if (!email) return res.status(400).send('Email is required');
 
   let user = await User.findOne({ email: req.body.email });
-  if (!user) return res.status(400).send('Invalid email.');
+  if (!user) return res.status(400).send('No account with this email.');
 
   const token = user.generateAuthToken();
   res.send(token);
