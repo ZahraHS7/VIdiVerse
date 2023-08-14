@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cd0f63c.css",
-    "main.js": "/static/js/main.ad56a039.js",
+    "main.css": "/static/css/main.2a1c24f7.css",
+    "main.js": "/static/js/main.a24e6086.js",
     "static/js/787.98a9aeaf.chunk.js": "/static/js/787.98a9aeaf.chunk.js",
     "static/media/filming.jpg": "/static/media/filming.09f33a0c6f7c158a1489.jpg",
     "static/media/watching TV.jpg": "/static/media/watching TV.f1fa713d3a35410adc1c.jpg",
     "static/media/film.jpg": "/static/media/film.eb9f4bf4825867adb142.jpg",
     "static/media/popcornFilm.jpg": "/static/media/popcornFilm.a1a43ee58f33356f16fb.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/cactus_ desert.png": "/static/media/cactus_ desert.ff98e5bf8ba791479f2c.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/logo.png": "/static/media/logo.a68fb40634889ed5c2f9.png",
+    "static/media/404 error.png": "/static/media/404 error.8032de2b32377b6c862c.png",
     "index.html": "/index.html",
-    "main.9cd0f63c.css.map": "/static/css/main.9cd0f63c.css.map",
-    "main.ad56a039.js.map": "/static/js/main.ad56a039.js.map",
+    "main.2a1c24f7.css.map": "/static/css/main.2a1c24f7.css.map",
+    "main.a24e6086.js.map": "/static/js/main.a24e6086.js.map",
     "787.98a9aeaf.chunk.js.map": "/static/js/787.98a9aeaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cd0f63c.css",
-    "static/js/main.ad56a039.js"
+    "static/css/main.2a1c24f7.css",
+    "static/js/main.a24e6086.js"
   ]
 }
