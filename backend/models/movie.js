@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Joi = require('joi');
 const {genreSchema} = require('./genre');
 
-const Movie = mongoose.model('Movie', new mongoose.Schema({
+const movieSchema = new mongoose.Schema({
   title: {
     type: String,
     trim: true,
@@ -80,7 +80,9 @@ const Movie = mongoose.model('Movie', new mongoose.Schema({
     default: false,
     required: true
   }
-}));
+});
+
+const Movie = mongoose.model('Movie', movieSchema);
 
 // what the client sends us, the input of api
 function validationMovie (movie) {
@@ -103,5 +105,6 @@ function validationMovie (movie) {
   return schema.validate(movie);
 }
 
+module.exports.movieSchema = movieSchema;
 module.exports.Movie = Movie;
 module.exports.validate = validationMovie;
