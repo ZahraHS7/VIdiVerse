@@ -2,6 +2,7 @@ const auth = require("../middleware/auth");
 const bcrypt = require("bcrypt");
 const _ = require("lodash");
 const { User, validate } = require("../models/user");
+const { Movie } = require("../models/movie");
 const express = require("express");
 const router = express.Router();
 
@@ -51,6 +52,49 @@ router.put("/me", auth, async (req, res) => {
     res.send(_.pick(user, ["_id", "name", "email"]));
   } catch (error) {
     res.status(500).send("Something went wrong.");
+  }
+});
+
+router.put('/me/add-favorite-movie/:id', auth, async (req, res) => {
+  try {
+    const userId = req.user._id;
+
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).send('User not found.');
+
+    const movieId = req.params.id;
+    const movie = await Movie.findById(movieId); // Assuming you have a Movie model
+
+    if (!movie) return res.status(404).send('Movie not found.');
+
+    user.favoriteMovies.push(movie);
+    await user.save();
+
+    res.send(user.favoriteMovies);
+  } catch (error) {
+    res.status(500).send('Something went wrong.');
+  }
+});
+
+router.delete('/me/delete-favorite-movie/:id', auth, async (req, res) => {
+  try {
+    const userId = req.user._id;
+    const movieId = req.params.id;
+
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).send('User not found.');
+
+    const movieIndex = user.favoriteMovies.findIndex(movie => movie._id.equals(movieId));
+    if (movieIndex === -1) {
+      return res.status(400).send('Movie not in favorites.');
+    }
+
+    user.favoriteMovies.splice(movieIndex, 1);
+    await user.save();
+
+    res.send(user.favoriteMovies);
+  } catch (error) {
+    res.status(500).send('Something went wrong.');
   }
 });
 
