@@ -41,3 +41,24 @@ mongodb+srv://Users:12345z@vidiverse.efowkvs.mongodb.net/?retryWrites=true&w=maj
 
 With MongoDB compass:
 mongodb+srv://Users:12345z@vidiverse.efowkvs.mongodb.net/
+
+<figure>
+  <img src="https://drive.google.com/uc?export=download&id=1zOUToqV2rhO_peTK8w-SznieW1LUQBJK" alt="HomePage DarkMode" width=60%>
+  <figcaption>Home Page Dark Mode</figcaption>
+</figure><hr/>
+<figure>
+  <img src="https://drive.google.com/uc?export=download&id=1XjRiVWplJMHdrTU1XWoVeEswTkxAO6TJ" alt="MoviePage DarkMode" width=60%>
+  <figcaption>Movie Page Dark Mode</figcaption>
+</figure>><hr/>
+<figure>
+  <img src="https://drive.google.com/uc?export=download&id=1sDB5OiDUK14QEXQzaUDwO_PVsFASqwJp" alt="MoviesPage lightMode" width=60%>
+  <figcaption>Movies Page light Mode</figcaption>
+</figure>><hr/>
+<figure>
+  <img src="https://drive.google.com/uc?export=download&id=1s9vzh2MLfeis1kAbx92SSUmKfeKctBZA" alt="RegisterPage lightMode" width=60%>
+  <figcaption>Register Page light Mode</figcaption>
+</figure>><hr/>
+<figure>
+  <img src="https://drive.google.com/uc?export=download&id=1uOcEnRIL8RtIesaGPQEUFRU2NyVf1dWD" alt="404Page lightMode" width=60%>
+  <figcaption>404 Page light Mode</figcaption>
+</figure>
