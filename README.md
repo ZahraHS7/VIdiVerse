@@ -52,24 +52,26 @@ The GNU General Public License v3.0 (GPL-3.0) is an open-source license that ens
 
 Please review the full [GPL-3.0 license text](https://www.gnu.org/licenses/gpl-3.0.en.html) to understand its terms and conditions. By using this project's code, you agree to abide by the GPL-3.0 license.
 
+## Screenshots
 
-<figure>
-  <img src="https://drive.google.com/uc?export=download&id=1zOUToqV2rhO_peTK8w-SznieW1LUQBJK" alt="HomePage DarkMode" width=60%>
-  <figcaption>Home Page Dark Mode</figcaption>
-</figure><hr/>
-<figure>
-  <img src="https://drive.google.com/uc?export=download&id=1XjRiVWplJMHdrTU1XWoVeEswTkxAO6TJ" alt="MoviePage DarkMode" width=60%>
-  <figcaption>Movie Page Dark Mode</figcaption>
-</figure>><hr/>
-<figure>
-  <img src="https://drive.google.com/uc?export=download&id=1sDB5OiDUK14QEXQzaUDwO_PVsFASqwJp" alt="MoviesPage lightMode" width=60%>
-  <figcaption>Movies Page light Mode</figcaption>
-</figure>><hr/>
-<figure>
-  <img src="https://drive.google.com/uc?export=download&id=1s9vzh2MLfeis1kAbx92SSUmKfeKctBZA" alt="RegisterPage lightMode" width=60%>
-  <figcaption>Register Page light Mode</figcaption>
-</figure>><hr/>
-<figure>
-  <img src="https://drive.google.com/uc?export=download&id=1uOcEnRIL8RtIesaGPQEUFRU2NyVf1dWD" alt="404Page lightMode" width=60%>
-  <figcaption>404 Page light Mode</figcaption>
-</figure>
+Here are some screenshots from the VidiVerse rental movie website:
+
+### Home Page - Dark Mode
+![Home Page Dark Mode](https://drive.google.com/uc?export=download&id=1zOUToqV2rhO_peTK8w-SznieW1LUQBJK)
+*The home page of the website in dark mode.*
+
+### Movie Page - Dark Mode
+![Movie Page Dark Mode](https://drive.google.com/uc?export=download&id=1XjRiVWplJMHdrTU1XWoVeEswTkxAO6TJ)
+*The movie page of the website in dark mode.*
+
+### Movies Page - Light Mode
+![Movies Page Light Mode](https://drive.google.com/uc?export=download&id=1sDB5OiDUK14QEXQzaUDwO_PVsFASqwJp)
+*The movies page of the website in light mode.*
+
+### Register Page - Light Mode
+![Register Page Light Mode](https://drive.google.com/uc?export=download&id=1s9vzh2MLfeis1kAbx92SSUmKfeKctBZA)
+*The register page of the website in light mode.*
+
+### 404 Page - Light Mode
+![404 Page Light Mode](https://drive.google.com/uc?export=download&id=1uOcEnRIL8RtIesaGPQEUFRU2NyVf1dWD)
+*The 404 error page of the website in light mode.*
