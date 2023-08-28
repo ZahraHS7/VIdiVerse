@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.dark .page_404 {
+    background-color: #3b3b3b;
+}
+
+.page_404{
+    padding:40px 0;
+    font-family: 'Arvo', serif;
+}
+
+.four_zero_four_bg{
+    background-image: url('../pics/404\ error.png');
+    height: 400px;
+    background-position: center;
+ }
+
+.link_404{
+    margin-left: 470px;
+    display: inline-block;
+}
+.contant_box_404{
+    margin-top:-50px;
+}
