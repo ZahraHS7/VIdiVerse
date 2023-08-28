@@ -9,7 +9,7 @@ The frontend code is located in the `frontend` folder. To run the frontend local
 1. Clone this repository: `git clone https://github.com/ZahraHS7/VidiVerse.git`
 2. Navigate to the `frontend` folder: `cd frontend`
 3. Install dependencies: `npm install`
-4. Start the frontend server: `npm start`
+4. Start the frontend server: `serve -s build`
 
 For the unoptimized frontend source code, you can find it in a separate repository: [VidiVerse Unoptimized Frontend](https://github.com/ZahraHS7/VidiVerse-frontend.git).
 
