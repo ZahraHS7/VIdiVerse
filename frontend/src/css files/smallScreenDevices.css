@@ -1,0 +1,259 @@
+/* Add a media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media screen and (max-width: 780px),
+screen and (max-width: 980px) {
+  .nav-link {
+    margin-left: -18px;
+    margin-right: 14px;
+  }
+
+  .nav-link.login{
+    margin-right: 10px;
+  }
+
+  .nav-link.register {
+    margin-left: -10px;
+    margin-right: -7px;
+  }
+
+  nav img {
+    margin-right: -7px;
+  }
+
+  .log-register-container {
+    margin: -16px auto;
+    width: 100%;
+    background-size: auto;
+    height: 100vh;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 10px;
+    height: 100%;
+  }
+
+  .carousel-indicators .indicator {
+    margin: 5px; /* Adjust spacing for indicators */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 20px; /* Decrease control width */
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: transparent; /* Remove background on hover */
+  }
+
+  .carousel-item img {
+    height: auto;
+  }
+
+  .home-carousel {
+    width: 100%;
+    height: 400px;
+    margin: -16px 0;
+    position: relative;
+  }
+
+  .home-carousel-content img {
+    height: 400px;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .home-carousel-content {
+    bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .home-carousel-details {
+    padding: 0 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .home-carousel-title {
+    font-size: 15px;
+  }
+
+  .home-carousel-summary {
+    font-size: 10px;
+  }
+
+  .movie-details {
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+
+  .image-container-right img {
+    right: -20px;
+    width: 90%;
+    height: 90%;
+  }
+
+  .image-container-left img {
+    right: -25px;
+    width: 92%;
+    height: 90%;
+  }
+
+  .movieFlexHeader h4{
+    margin: 5px 0px;
+  }
+
+  .movie-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+  }
+
+  .movie-item {
+    flex: 0 0 calc(45% - 8px);
+    margin: 4px;
+    position: relative;
+    height: 370px;
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+    animation: slide 12s linear infinite;
+  }
+
+  .movie-poster {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    scroll-snap-align: start; /* Snap alignment */
+  }
+
+  .overlay {
+    bottom: 0;
+  }
+
+  .movie-title {
+    display: none;
+  }
+
+  .movies-container {
+    overflow: scroll;
+  }
+
+  /* Define an animation for sliding */
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-290% - 16px)); /* Slide by two movie widths */
+    }
+  }
+
+  .centerFlex {
+    top: 70%; /* Adjust centerFlex position */
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 14px; /* Adjust font size for text */
+    width: 90%; /* Adjust width */
+  }
+
+  .centerFlex h2 {
+    top: -70px; /* Adjust h2 position */
+    right: 50%; /* Adjust position */
+    transform: translate(50%, 0);
+    font-size: 16px; /* Adjust font size for h2 */
+  }
+
+  .flex-item i {
+    font-size: 60px; /* Adjust icon size */
+  }
+
+  .how-it-works {
+    margin: 0; /* Remove negative margins */
+  }
+
+  .how-it-works img {
+    margin-bottom: -16px;
+    width: 100%; /* Adjust image width */
+    max-height: 300px; /* Adjust max-height */
+    opacity: 0.5;
+  }
+
+  .centerFlex {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .centerFlex h2 {
+    right: 50%;
+    font-size: medium;
+  }
+
+  .flex-item h4 {
+    font-size: x-small;
+  }
+
+  .flex-item {
+    padding: 5px;
+    margin: 5px;
+    flex: none;
+    text-align: center;
+  }
+
+  .flex-item i {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #5cb85c;
+    border-radius: 50%;
+  }
+
+  .how-it-works .signBtn {
+    font-size: x-small;
+    width: 25%;
+    height: 5%;
+    padding-bottom: 15px;
+    top: 97%;
+    transform: translate(-50%, -100%);
+  }
+
+  footer p{
+    margin-left: -14px;
+    margin-right: -25px;
+  }
+
+  footer img{
+    margin-left: -10px;
+  }
+  .link_404{
+    margin-left: 160px;
+    display: inline-block;
+  }
+
+  .go-to-top-button {
+    bottom: 40px;
+    right: 7%;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+  }
+
+  .four_zero_four_bg{
+    background-size: cover;
+  }
+}
